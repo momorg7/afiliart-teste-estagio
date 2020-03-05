@@ -1,0 +1,26 @@
+{
+  "name": "afiliart-teste-estagio",
+  "version": "1.0.0",
+  "description": "Aplicação teste com a finalidade de realizar cadastros de programadores da empresa Afiliart.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momorg7/afiliart-teste-estagio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/momorg7/afiliart-teste-estagio/issues"
+  },
+  "homepage": "https://github.com/momorg7/afiliart-teste-estagio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
