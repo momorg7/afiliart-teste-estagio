@@ -8,7 +8,9 @@ module.exports = {
             phone: req.body.phone,
             linkedin: req.body.linkedin,
             city: req.body.city,
-            state: req.body.state
+            state: req.body.state,
+            shift: req.body.shift,
+            abilities: req.body.abilities
         }
 
         User.create(user, (err, user)=>{

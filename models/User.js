@@ -24,6 +24,14 @@ let UserSchema = mongoose.Schema({
     state: {
         type: String,
         required: true
+    },
+    shift: {
+        type: Array,
+        required: true
+    },
+    abilities: {
+        type: Array,
+        required: true
     }
 });
 
